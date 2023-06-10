@@ -8,7 +8,6 @@ public class NumCompare
         double num1 = 0;
         double num2 = 0;
         boolean validInput = false;
-
         while (!validInput)
         {
             System.out.print("Enter first number: ");
@@ -22,9 +21,7 @@ public class NumCompare
                 input.next();
             }
         }
-
         validInput = false;
-
         while (!validInput)
         {
             System.out.print("Enter second number: ");
@@ -39,7 +36,6 @@ public class NumCompare
                 input.next();
             }
         }
-
         if (num1 == num2)
         {
             System.out.println("The two numbers are equal.");
@@ -50,5 +46,6 @@ public class NumCompare
         else
         {
             System.out.println("The second number is less than the first number.");
+        }
     }
 }
